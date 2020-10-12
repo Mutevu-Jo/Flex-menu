@@ -1,0 +1,47 @@
+/*@TODO (6) : Specify what each selector and property-value pair does and means*/
+body{
+  background:black;
+}
+
+.flex-container {
+  display: flex;
+  align-content: stretch;
+   flex-wrap: wrap;
+   align-content: space-around;
+   align-content: flex-end;
+align-content: space-between;
+
+}
+h1 {
+  font-size: 4em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+section {
+  background: #F6F3ED;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 255px;
+}
+.title {
+  background-color: #783F27;
+  color: #F9AB33;
+  line-height: 4em;
+}
+
+
+
+
+.price {
+
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+button{
+  background: skyblue;
+}
